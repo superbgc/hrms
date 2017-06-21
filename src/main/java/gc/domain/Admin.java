@@ -2,16 +2,17 @@ package gc.domain;
 
 import java.io.Serializable;
 
+import org.springframework.stereotype.Component;
 public class Admin implements Serializable {
 
 	/**
 	 * 
 	 */
 		private static final long serialVersionUID = 1L;
-		private Integer id;  // ¹ÜÀíÔ±±àºÅ
-	    private String username;  // ÓÃ»§Ãû
-	    private String password;  // ÃÜÂë
-	    private String role_name;   // ¹ÜÀíÔ±½ÇÉ«
+		private Integer id;  // ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½
+	    private String username;  // ï¿½Ã»ï¿½ï¿½ï¿½
+	    private String password;  // ï¿½ï¿½ï¿½ï¿½
+	    private String role_name;   // ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½É«
 		public Integer getId() {
 			return id;
 		}
