@@ -18,4 +18,6 @@ public interface AdminDao {
 	public Integer updateAdmin(Admin admin);
 	//删除管理员
 	public Integer deleteAdmin(Integer id);
+	
+	
 }
